@@ -1,0 +1,108 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+header{
+	height: 80px;
+	background: lightblue;
+	padding: 50px;
+}
+figure{
+	width: 200px;
+	float: left;
+}
+header nav{
+	float: right;
+	margin: 25px;
+	border-radius: 29px;
+
+
+}
+
+header nav li{
+	display: inline-block;
+	padding: 10px;
+
+	border-radius: 10px;
+	background: #000000;
+	border-style: ridge;
+	border-width: 5px;
+
+}
+a{
+	text-decoration: none;
+	color: white;
+	
+
+
+}
+
+#banner{
+	height: 400px;
+	background: gray;
+
+}
+#banner h1{
+	color: white;
+	font-size: 70px;
+	text-align: center;
+	padding-top: 130px;
+	/*border-width: 2px ;*/
+	/*border-style: ridge;*/
+	/*
+	valores de border-whidt
+	solid
+	dashed
+	dotted
+	double
+	ridge
+	none
+	*/
+	border-color: orange;
+	/*border: 10px solid yellow;*/
+	position: relative;
+	bottom: 10px;
+	left: 0;
+
+
+}
+#galeria{
+	width: 70%;
+	background: yellow;
+	float: left;
+}
+article{
+	width: 42%;
+	float: left;
+	border: 2px solid orange;
+	margin: 20px;
+	padding: 10px;
+}
+article img{
+	width: 200px;
+	float: right;
+
+}
+aside{
+	height: 650px;
+	width: 30%;
+	background: pink;
+	float: right;
+}
+footer{
+	height: 70px;
+	background: black;
+	text-align: center;
+	color: white;
+	clear: both;
+
+}
+.formularo-buscar{
+	float: left;
+	position: relative;
+	top: 20px;
+}
+.formulario-buscar #cuadro-busqueda{
+	padding: 
+}

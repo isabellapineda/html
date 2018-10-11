@@ -1,0 +1,78 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: sans-serif;
+}
+.planes__contenedor{
+	width: 20%;
+	
+	border: 1px solid gray;
+	margin: 100px 20px;
+	float: left;
+
+}
+.planes__contenedor:nth-child(2)
+.planes__cabecera{
+	background: tomato;
+}
+.planes__cabecera{
+	height: 130px;
+	border-bottom: 1px solid gray;
+	text-align: center;
+
+}
+.planes__cabecera > h3{
+	text-transform: uppercase;
+	color: purple;
+	letter-spacing: 2px;
+	padding: 10px;
+}
+.planes__contenedor:nth-child(2)
+.planes__cabecera > h3{
+	color: white;
+}
+.planes__contenedor:nth-child(2)
+.planes__cabecera > h3 + p{
+	color: white;
+}
+.planes__cabecera > h3+p{
+	font-size: 50px;
+	margin: 5px 0;
+		color: red;
+}
+.planes__cabecera >p >sub{
+	font-size: 20px;
+	color: red;
+	position: relative;
+	top: -3px;
+}
+li[class*="items"]{
+	list-style: none;
+	text-align: center;
+	padding: 10px;
+}
+li[class*="items"]:nth-child(2n){
+	background: rgba(200,200,200,.3);
+}
+.planes__cuerpo__enlace{
+	width: 100%;
+	height: 70px;
+	background: purple;
+	text-align: center;
+}
+.planes__contenedor:nth-child(2)
+.planes__cuerpo__enlace{
+	background: tomato;
+}
+a[class="boton-compra"]{
+	color: white;
+	text-decoration: none;
+	position: relative;
+	top: 24px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.planes__cuerpo__enlace:hover{
+	background: black;
+}
